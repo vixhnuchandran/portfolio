@@ -4,7 +4,7 @@ const header = {
 }
 
 const about = {
-  name: 'Vishnu J S',
+  name: 'Vishnu Chandran',
   role: 'Full Stack Engineer',
   description:
   'I am a Full Stack Engineer with a strong passion for cybersecurity. With a solid background in web development, I am now focused on expanding my knowledge and skills in cybersecurity to build secure and resilient systems. I am eager to contribute to the field and continue learning about security best practices.',  resume: 'https://example.com',
@@ -16,28 +16,20 @@ const about = {
 
 const projects = [
   {
-    name: 'Project 1',
+    name: 'Lean Queue',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A lightweight Node.js application designed for efficient management of task queues. Built on the Express framework and powered by PostgreSQL.',
+    stack: ['Javascript','NodeJS', 'ExpressJS', 'Postgresql'],
+    sourceCode: 'https://github.com/vixhnuchandran/Lean-Queue',
+    livePreview: '#',
   },
   {
-    name: 'Project 2',
+    name: 'Versix',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Lightweight API for storing, retrieving, and managing data along with automated versioning.',
+      stack: ['Typescript','NodeJS', 'ExpressJS', 'Sqlite'],
+      sourceCode: 'https://github.com/vixhnuchandran/Versix',
+    livePreview: '#',
   },
 ]
 
